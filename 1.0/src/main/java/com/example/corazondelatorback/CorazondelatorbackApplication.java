@@ -1,0 +1,14 @@
+package com.example.corazondelatorback;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CorazondelatorbackApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CorazondelatorbackApplication.class, args);
+		System.out.println("hola");
+	}
+
+}
